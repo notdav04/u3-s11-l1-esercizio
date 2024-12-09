@@ -8,6 +8,7 @@ import store from "./redux/store";
 import Favourites from "./components/Favourites";
 
 function App() {
+  //non sicuro che vada prima payload e poi browserrouter
   return (
     <Provider store={store}>
       <BrowserRouter>
